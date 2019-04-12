@@ -3,7 +3,9 @@ def my_select(collection)
  new_collection = []
  
  while i < collection.length 
-  new_collection << yield(collection[i].include?())
+  if 
+ 
+  new_collection << yield(collection[i].selce?())
   i += 1  
  end
  new_collection
